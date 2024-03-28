@@ -2,17 +2,16 @@
 
 interface Props {
 	params: {
-		id: string;
+		type: string;
 	};
 }
 
 export default function AddTransformationTypePage({ params }: Props) {
-	const { id } = params;
+	const { type } = params;
 
 	return (
 		<>
-			<h1>AddTransformationTypePage { id }</h1>
-			<p>AddTransformationTypePage content</p>
+			<h1>AddTransformationTypePage: type = { type }</h1>
 		</>
 	);
 }
