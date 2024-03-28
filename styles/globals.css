@@ -375,10 +375,6 @@
   color: #384262;
 }
 
-.cl-logoBox {
-  justify-content: center;
-}
-
 .cl-logoImage {
-  border-radius: 4px;
+  @apply shadow-md shadow-slate-300 rounded-full
 }
